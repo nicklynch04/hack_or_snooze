@@ -1,0 +1,44 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #ff6600;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border-radius: 3px 3px 0 0;
+}
+
+.navbar-brand, .username, .nav-link {
+  letter-spacing: 80%;
+  word-spacing: 50%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1rem;
+  
+}
+
+.username {
+    font-size: .9rem;
+    
+}
+
+
+.nav-link {
+  font-size: 0.85rem;
+  margin: 0 4px;
+
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+}
+
+.nav-left .nav-link {
+  border-left: solid black 3px;
+  padding-left: 8px;
+
+}
